@@ -1,0 +1,30 @@
+﻿Vergleichsmessung für Enumeration und NNH (Laufzeit, Tourlänge)
+
+Test1.txt
+NNH = 8 ms
+E =
+Test2.txt
+NNH = 12 ms
+E =
+Test3.txt
+NNH = 12 ms
+E =
+
+Aufwand (O-Notation) der Algorithmen)
+
+NNH = O(n^2) 
+Für jeden Punkt den nächsten Nachbarn finden -> n
+Distanz berechnen zwischen 2 Punkten -> faktor 1 O(1)
+Distanz zwischen einem Punkt und allen anderen berechnen O(n)
+-> O(n^2) 
+
+Enumeration = O(n!)
+immer wenn N inkrementiert wird, wird die Laufzeit mit N multipliziert
+zB bei 5 Punkten -> 5*4*3*2*1 = 120
+Bei 6 Städten -> 120*6 = 720
+
+
+
+
+
+

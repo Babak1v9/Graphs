@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1591563751 source:c:\users\lrittler\downloads\main(1).cpp
+	<iostream>
+	<string.h>
+	<vector>
+	<fstream>
+	<iomanip>
+	<sstream>
+	<iterator>
+	<math.h>
+	<algorithm>
+
